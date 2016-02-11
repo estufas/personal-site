@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/estufas/personal-site.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/estufas/personal-site/issues"
-  },
-  "homepage": "https://github.com/estufas/personal-site#readme"
+  "dependencies": {
+    "express": "^4.13.4",
+    "lodash": "^4.0.1",
+    "mongoose": "^4.3.7",
+    "request": "^2.67.0"
+  }
 }
+

@@ -4,15 +4,11 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 		$routeProvider
 			.when(
 				'/', {
-					templateUrl: 'app/views/random.html'
+					templateUrl: 'app/views/index.html'
 					// controller: 'HomeCtrl'
 				}
 			)
-			.when (
-				'/show', {
-					templateUrl: 'app/views/show.html'
-				}
-			).otherwise ({
+			.otherwise ({
 				templateUrl: 'views/404.html'
 			});
 

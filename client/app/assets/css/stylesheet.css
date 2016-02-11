@@ -1,28 +1,55 @@
+html{
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden; 
+}
+body {
+	background-color: white;
+	height: 100%;
+	width: 100%;
+}
+p {
+	margin: 0;
+	padding: 0;
+	display: block;
+	/*width: 50px;*/
+}
+.navbar {
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 25px;
+	margin-top: 0px;
+	padding-top: 7px;
+	display: block;
+}
+.nav-text-right {
+	margin-top: -20px;
+
+	width: 10%;
+	margin-left: auto;
+	text-align: right;
+	/*padding-top: 10px;*/
+	padding-right: 15px;
+}
+.nav-text-center {
+	margin: 0 auto;
+	/*display: block;*/
+	width: 10%;
+	/*padding-top: 10px;*/
+	text-align: center;
+}
 .title {
 	font-family: 'Amaranth', sans-serif;
 	font-size: 250%
 }
-.img-holder {
+.main {
 	position: relative;
-}
-
-.quote {
-	position: absolute;
-	width: 40%;
-	bottom: 7%;
-	right: 25%;
-}
-
-.quote .text p {
-	font-size: 180%;
-	font-family: 'Amaranth', sans-serif;
-	color: ;
-}
-
-.img-holder img {
-	opacity: 0.4;
-	height: 75%;
-	width: 75%;
-	border: 30px solid;
-	border-image:url(http://www.clker.com/cliparts/K/M/h/3/V/u/black-border-md.png) 30 30 round;
+	height: 100%;
+	width: 100%;
+	background-size: 85% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 }
